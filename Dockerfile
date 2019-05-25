@@ -1,6 +1,4 @@
 FROM jenkins/jenkins
-COPY ./copystuff/docker-compose.yaml  /build
-WORKDIR /build
 USER root
 RUN apt update
 RUN apt install curl
